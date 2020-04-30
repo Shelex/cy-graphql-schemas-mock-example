@@ -1,0 +1,28 @@
+{
+    "eslint.packageManager": "yarn",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "editor.formatOnSave": true,
+    "eslint.lintTask.enable": true,
+    "cypressHelper.commandForOpen": "yarn cypress open",
+    "cypressHelper.customCommandsFolder": "cypress/support",
+    "cypressHelper.menuItems": {
+        "OpenSingleTest": true,
+        "OpenSpecFile": true,
+        "GenerateCustomCommandTypes": true,
+        "GoToCustomCommand": true,
+        "FindCustomCommandReferences": true,
+        "FindStepDefinitionReferences": true,
+        "SchemaGenerator": false,
+        "ParseHAR": true,
+        "mockAutocomplete": false
+    },
+    "cypressHelper.fixtureAutocompletionCommands": ["fixture", "send"],
+    "cypressHelper.cucumberTagsAutocomplete": {
+        "enable": true,
+        "allurePlugin": true,
+        "tags": ["focus", "myTag", "someOtherTag"]
+    }
+}

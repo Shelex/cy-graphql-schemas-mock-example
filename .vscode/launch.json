@@ -1,0 +1,32 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Cypress Current File",
+            "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/cypress",
+            "windows": {
+                "runtimeExecutable": "${workspaceFolder}\\node_modules\\.bin\\cypress.cmd"
+            },
+            "runtimeArgs": [
+                "run",
+                "--headless",
+                "--browser=chrome",
+                "--config=video=false",
+                "9898",
+                "--spec"
+            ],
+            "program": "${file}",
+            "protocol": "legacy",
+            "port": 9898,
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "openOnSessionStart",
+            "timeout": 999999999999999,
+            "autoAttachChildProcesses": false,
+            "env": {
+                // "DEBUG": "cypress:*"
+            }
+        }
+    ]
+}
