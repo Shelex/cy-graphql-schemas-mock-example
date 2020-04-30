@@ -1,0 +1,17 @@
+{
+    "name": "cypress-graphql-example",
+    "version": "1.0.0",
+    "description": "example tests for graphql api using cypress.io",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "test": "yarn cypress run --config video=false --browser chrome",
+        "open": "yarn cypress open --browser chrome"
+    },
+    "devDependencies": {
+        "@cypress/schema-tools": "^4.7.4",
+        "cypress": "^4.5.0",
+        "eslint-plugin-chai-friendly": "^0.6.0",
+        "eslint-plugin-cypress": "^2.10.3"
+    }
+}

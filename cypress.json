@@ -1,0 +1,6 @@
+{
+    "env": {
+        "apiURL": "https://api.graph.cool/"
+    },
+    "baseUrl": "https://next-with-apollo.now.sh"
+}

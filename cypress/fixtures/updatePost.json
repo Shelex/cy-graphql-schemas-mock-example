@@ -1,0 +1,9 @@
+{
+    "operationName": "updatePost",
+    "url": "simple/v1/cixmkt2ul01q00122mksg82pn",
+    "request": {
+        "operationName": "updatePost",
+        "variables": { "id": "ck9msgapm120t0149e5tr1l4r", "votes": 0 },
+        "query": "mutation updatePost($id: ID!, $votes: Int) {\n  updatePost(id: $id, votes: $votes) {\n    __typename\n    id\n    votes\n  }\n}\n"
+    }
+}

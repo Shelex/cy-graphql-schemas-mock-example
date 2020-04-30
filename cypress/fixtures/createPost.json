@@ -1,0 +1,9 @@
+{
+    "operationName": "createPost",
+    "url": "simple/v1/cixmkt2ul01q00122mksg82pn",
+    "request": {
+        "operationName": "createPost",
+        "variables": { "title": "qwerty", "url": "https://qwerty.com" },
+        "query": "mutation createPost($title: String!, $url: String!) {\n  createPost(title: $title, url: $url) {\n    id\n    title\n    votes\n    url\n    createdAt\n    __typename\n  }\n}\n"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "operationName": "allPosts",
+    "url": "simple/v1/cixmkt2ul01q00122mksg82pn",
+    "request": {
+        "operationName": "allPosts",
+        "variables": { "skip": 0, "first": 10 },
+        "query": "query allPosts($first: Int!, $skip: Int!) {\n  allPosts(orderBy: createdAt_DESC, first: $first, skip: $skip) {\n    id\n    title\n    votes\n    url\n    createdAt\n    __typename\n  }\n  _allPostsMeta {\n    count\n    __typename\n  }\n}\n"
+    }
+}
